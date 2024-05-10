@@ -15,7 +15,7 @@ fun main() {
         .url("https://api.search.brave.com/res/v1/news/search?q=cordoba&count=3&country=es&search_lang=es&spellcheck=1")
         .addHeader("Accept", "application/json")
         .addHeader("Accept-Encoding", "gzip")
-        .addHeader("X-Subscription-Token", "BSAxJHMSRPdusD7ihUoJ-99zDBsmPrb")
+        .addHeader("X-Subscription-Token", "BrakeApiToken")
         .build()
 
     // Ejecutar la solicitud
